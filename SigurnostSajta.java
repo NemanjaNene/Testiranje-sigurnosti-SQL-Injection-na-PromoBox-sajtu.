@@ -86,8 +86,8 @@ import org.openqa.selenium.io.FileHandler;
 
         @AfterTest
         public void close() {
-            driver.quit(); // Zatvaranje browsera
-            extent.flush(); // Generisanje HTML izveštaja
+            driver.quit(); 
+            extent.flush(); 
         }
     }
 
